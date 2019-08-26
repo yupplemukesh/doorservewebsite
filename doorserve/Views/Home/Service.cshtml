@@ -1,0 +1,36 @@
+﻿@model Doorserve.Core.Dtos.PageViewModel
+@{
+    ViewData["Title"] = "Service";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var ServiceSection = Model.PageContants.Where(x => x.SectionName == "service-section").FirstOrDefault();
+    var ConsumerElec = Model.PageContants.Where(x => x.SectionName == "consumer-electronics").FirstOrDefault();
+    var CustomerSeg = Model.PageContants.Where(x => x.SectionName == "customer-segment").FirstOrDefault();
+    var QuickServe = Model.PageContants.Where(x => x.SectionName == "quick-service").FirstOrDefault();
+    var ServiceSlider = Model.PageBanners.Where(x => x.SectionName == "service-slider").ToList();
+    var viewData = new ViewDataDictionary(new Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider(), new Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary()) { { "BaseUrl", Model.BaseUrl } };
+}
+
+<div class="section service-section">
+    @if (ServiceSection != null)
+    {
+        @Html.Raw(ServiceSection.Description)
+    }
+</div>
+
+<div class="consumer-electronics">
+    @if (ConsumerElec != null)
+    {
+        @Html.Raw(ConsumerElec.Description)
+    }
+</div>
+
+<div class="customer-segment">
+    @if (CustomerSeg != null)
+    {
+        @Html.Raw(CustomerSeg.Description)
+    }
+</div>
+
+<partial name="_QuickServices" model="QuickServe" />
+<!--service-info-->
+<partial name="_ServiceSlider" model="ServiceSlider" view-data="viewData" />

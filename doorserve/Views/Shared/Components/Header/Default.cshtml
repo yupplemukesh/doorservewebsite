@@ -1,0 +1,53 @@
+﻿@model Doorserve.Core.Dtos.HeaderFooterModel
+<div class="section top-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a asp-controller="Home" asp-action="Index" >
+                    <img src="@Model.BaseUrl/uploadedImages/Companies/Logo/@Model.Contact.CompanyLogo" alt="Doorserve" class="img-responsive" width="70px" />
+                </a>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <i class="fa fa-phone"></i> <span>@Model.Contact.ContactNumber </span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="section main-nav" id="topheader">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a asp-action="about" asp-controller="Home">About Us</a></li>
+                    <li><a asp-action="Service" asp-controller="Home">Services</a></li>
+                    <li class="dropdown demo">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Repair Request<i class="fa fa-plus" aria-hidden="true"></i><b class="caret"></b></a>
+                        <ul class="dropdown-menu demodrop">
+                            @foreach (var item in Model.Categories)
+                            {
+                                <li><a href="@Url.Action("Index","RequestCall", new {CategoryId=item.CategoryId })">@item.CategoryName</a></li>
+                            }
+                        </ul>
+                    </li>
+                    <li><a asp-action="location" asp-controller="Home">Locations</a></li>
+                    <li><a asp-action="Track" asp-controller="Home">Track</a></li>
+                    <li><a asp-action="Career" asp-controller="Home">Careers</a></li>
+                    <li><a asp-action="Contact" asp-controller="Home">Contact</a></li>                    
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+</div>

@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DoorServe\\DoorServe Web\\doorserve\\DoorServe.csproj": {}
+  },
+  "projects": {
+    "D:\\DoorServe\\DoorServe Web\\doorserve.core\\Doorserve.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DoorServe\\DoorServe Web\\doorserve.core\\Doorserve.Core.csproj",
+        "projectName": "Doorserve.Core",
+        "projectPath": "D:\\DoorServe\\DoorServe Web\\doorserve.core\\Doorserve.Core.csproj",
+        "packagesPath": "C:\\Users\\yupple\\.nuget\\packages\\",
+        "outputPath": "D:\\DoorServe\\DoorServe Web\\doorserve.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yupple\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkcore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\DoorServe\\DoorServe Web\\doorserve\\DoorServe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DoorServe\\DoorServe Web\\doorserve\\DoorServe.csproj",
+        "projectName": "DoorServe",
+        "projectPath": "D:\\DoorServe\\DoorServe Web\\doorserve\\DoorServe.csproj",
+        "packagesPath": "C:\\Users\\yupple\\.nuget\\packages\\",
+        "outputPath": "D:\\DoorServe\\DoorServe Web\\doorserve\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yupple\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\DoorServe\\DoorServe Web\\Doorserve.Core\\Doorserve.Core.csproj": {
+                "projectPath": "D:\\DoorServe\\DoorServe Web\\Doorserve.Core\\Doorserve.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.Razor": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

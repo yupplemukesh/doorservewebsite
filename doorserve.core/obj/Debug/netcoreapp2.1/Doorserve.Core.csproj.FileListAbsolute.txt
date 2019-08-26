@@ -1,0 +1,18 @@
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\bin\Debug\netcoreapp2.1\Doorserve.Core.deps.json
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\bin\Debug\netcoreapp2.1\Doorserve.Core.dll
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\bin\Debug\netcoreapp2.1\Doorserve.Core.pdb
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.csproj.CoreCompileInputs.cache
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.AssemblyInfoInputs.cache
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.AssemblyInfo.cs
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.dll
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.pdb
+C:\Users\yupple\source\repos\DoorServe\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.csprojAssemblyReference.cache
+D:\DoorServe\DoorServe Web\doorserve.core\bin\Debug\netcoreapp2.1\Doorserve.Core.deps.json
+D:\DoorServe\DoorServe Web\doorserve.core\bin\Debug\netcoreapp2.1\Doorserve.Core.dll
+D:\DoorServe\DoorServe Web\doorserve.core\bin\Debug\netcoreapp2.1\Doorserve.Core.pdb
+D:\DoorServe\DoorServe Web\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.csprojAssemblyReference.cache
+D:\DoorServe\DoorServe Web\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.csproj.CoreCompileInputs.cache
+D:\DoorServe\DoorServe Web\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.AssemblyInfoInputs.cache
+D:\DoorServe\DoorServe Web\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.AssemblyInfo.cs
+D:\DoorServe\DoorServe Web\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.dll
+D:\DoorServe\DoorServe Web\doorserve.core\obj\Debug\netcoreapp2.1\Doorserve.Core.pdb

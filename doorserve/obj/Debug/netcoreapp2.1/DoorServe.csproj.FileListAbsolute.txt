@@ -1,0 +1,86 @@
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\DoorServe.deps.json
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\DoorServe.runtimeconfig.json
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\DoorServe.runtimeconfig.dev.json
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\DoorServe.dll
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\DoorServe.pdb
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\DoorServe.Views.dll
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\DoorServe.Views.pdb
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\Doorserve.Core.dll
+C:\Users\yupple\source\repos\DoorServe\DoorServe\bin\Debug\netcoreapp2.1\Doorserve.Core.pdb
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.csprojAssemblyReference.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.csproj.CoreCompileInputs.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.RazorAssemblyInfo.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.RazorAssemblyInfo.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.AssemblyInfoInputs.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.AssemblyInfo.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.TagHelpers.input.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.TagHelpers.output.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.RazorCoreGenerate.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.RazorTargetAssemblyInfo.cache
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.RazorTargetAssemblyInfo.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.Views.pdb
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.csproj.CopyComplete
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.dll
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\DoorServe.pdb
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Header\Default.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Footer\Default.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_quickServices.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ServiceSlider.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Home\Service.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Home\Career.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ContactQueryForm.g.cshtml.cs
+C:\Users\yupple\source\repos\DoorServe\DoorServe\obj\Debug\netcoreapp2.1\Razor\Views\Home\Location.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\DoorServe.deps.json
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\DoorServe.runtimeconfig.json
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\DoorServe.runtimeconfig.dev.json
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\DoorServe.dll
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\DoorServe.pdb
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\DoorServe.Views.dll
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\DoorServe.Views.pdb
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\Doorserve.Core.dll
+D:\DoorServe\DoorServe Web\doorserve\bin\Debug\netcoreapp2.1\Doorserve.Core.pdb
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.csprojAssemblyReference.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.csproj.CoreCompileInputs.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.RazorAssemblyInfo.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.RazorAssemblyInfo.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.AssemblyInfoInputs.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.AssemblyInfo.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.TagHelpers.input.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.TagHelpers.output.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.RazorCoreGenerate.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Home\Career.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Home\Location.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Home\Service.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Footer\Default.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Header\Default.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ContactQueryForm.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_quickServices.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ServiceSlider.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.RazorTargetAssemblyInfo.cache
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.RazorTargetAssemblyInfo.cs
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.Views.pdb
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.csproj.CopyComplete
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.dll
+D:\DoorServe\DoorServe Web\doorserve\obj\Debug\netcoreapp2.1\DoorServe.pdb

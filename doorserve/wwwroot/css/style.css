@@ -1,0 +1,400 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+
+body {font-family: 'Quicksand', sans-serif;font-weight:700;overflow-y:scroll;position:relative}
+
+.img-center{ margin: 0 auto;}
+.top-nav{background:#fff; padding-top: 2px;padding-bottom:3px;}
+/*.main-nav{padding: 2px 0px;}*/
+.main-nav .navbar li a{line-height: 22px}
+.main-nav .navbar{background: #000;margin-bottom: 0px;}
+.navbar-default .navbar-nav li a{ font-size:22px;color:#ffffff; text-transform: uppercase;}
+.navbar-default .navbar-nav li a .fa{color:#ffba00; }
+.navbar-default .navbar-nav li a:hover{color:#ffba00;position: relative }
+
+.navbar-right li{font-size:21px;padding-top: 21px;margin-left:16px;color: #000}
+.navbar-right li .fa{color:#e52f24;}
+.nav-tabs>li>a{border:none}
+.dropdown-menu li a{font-size:18px!important; font-weight: bold}
+.main-nav .navbar-nav>li>.dropdown-menu {background: #000; }
+.main-nav .navbar-default{border: none;border-radius:0;}
+.main-nav .dropdown-menu li a{font-size:14px;color:#fff !important; background: #000 }
+.dropdown .fa-plus{display: none}
+.navbar-default .navbar-collapse{borde-color:#e52f24}
+
+
+
+.slider-carousel .container-fluid{padding: 0;}
+carousel-inner>.item {
+    position: relative;
+    max-height: 600px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*Top common Section-end-css
+.slider1 {min-height:360px;height: 100%;width:100%;}
+.carousel-inner{position: relative;}
+.slider1 .container{position:absolute;left: 50%;transform: translateX(-50%);top:25%;}
+.slider1 img{vertical-align:middle}
+#first-slider img{ max-width:200px}
+.carousel-inner .slider-bg1{background-image: url("../images/repair-doorserve.jpg");background-repeat: no-repeat; background-size:cover; background-position:right}
+.carousel-inner .slider-bg2{background-image: url(../images/laptop-doorserve.jpg);background-repeat: no-repeat; background-size:cover}
+.carousel-inner .slider-bg3{background-image: url(../images/installation-doorserve.jpg);background-repeat: no-repeat; background-size:cover}
+.carousel-inner .slider-bg4{background-image: url(../images/installation-doorserve.jpg);background-repeat: no-repeat; background-size:cover}
+
+.slide-control{color:#29dbf5;font-size:32px;left:30px;margin-top:-70px;position:absolute;top:50%;}
+.slide-control .fa-angle-left::before{ width:38px; height:38px; border:3px solid #ccc;border-radius:100% ;position: absolute;left:50px;text-align: center; vertical-align: middle}
+.slide-control .fa-angle-right::before{ width:38px; height:38px; border:3px solid #ccc;border-radius:100% ;position: absolute;right:50px;text-align: center; vertical-align: middle}
+.slide-control.right{left:auto;right:30px;}
+.copyright-text {font-size: 14px; font-weight: bold;color: #ffba00}
+.slider-bg1 h2{font-size:34px; font-weight: bold;padding-left: 0px}
+.slider-bg1 p{font-size:24px;padding-left: 0px; line-height: 30px}
+.slider-bg2 h2{font-size:24px; font-weight: bold; line-height: 32px}
+.slider-bg2 h1{font-size:36px; font-weight: bold; line-height: 36px}
+.slider-bg3 h1{font-size:36px; font-weight: bold; line-height: 36px}
+.slider-bg3 h2{font-size:24px; font-weight: bold; line-height: 32px}
+.slider-bg4 h2{font-size:24px; font-weight: bold; line-height: 32px}
+.slider-bg4 h1{font-size:36px; font-weight: bold; line-height: 36px}
+*/
+
+#jumboCarousel {
+  
+   /* min-height: 300px;*/
+    min-width: 100%;
+}
+#jumboCarousel img {
+   /* min-height: 300px;*/
+    min-width: 100%;
+}
+/*#jumboCarousel > .carousel-indicators > li {
+    border-radius: 0px;
+    min-width: 25px;
+    background-color: #9d9d9d;
+    border: 1px solid black;
+    margin-right: 10px;;
+    margin-left: 10px;;
+}*/
+#jumboCarousel > .carousel-indicators > .active {
+    background-color: orange;
+}
+
+
+.item {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  }
+
+.custum-carousel-caption {
+width:500px;
+z-index:10;
+color:#fff;
+text-align:center;
+top:50%;
+left:60%;
+bottom:auto;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+
+
+.custum-carousel-caption2 {
+width:450px;
+z-index:10;
+color:#fff;
+text-align:center;
+top:50%;
+left:8%;
+bottom:auto;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+
+.custum-carousel-caption3 {
+width:500px;
+z-index:10;
+color:#fff;
+text-align:center;
+top:50%;
+left:40%;
+bottom:auto;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+
+
+.slider-carousel h1{font-size:36px; font-weight: bold; line-height: 32px; color: #333333}
+.slider-carousel p{color: #333333;font-size:28px;line-height: 36px;font-weight: 400}
+
+
+/*tab-section*/
+ .fa-angle-right:before{color: #000}
+.fa-angle-left:before{color: #000}
+.tab-section{padding:50px 0px; }
+.tab-section .nav-tabs{border-bottom:none;}
+.tab-section .nav-tabs>li {width:25%;text-align: center}
+.tab-section .nav-tabs>li >a{ background:#ffffff;font-size:24px;color:#000000;border-radius:0;padding:8px 8px;margin-right:0px; }
+.tab-section .nav-tabs>li >a:hover{border-bottom: 4px solid #ffba00; border-right:2px solid #ffba00; background:#000;color: #fff; padding-bottom: 9px; padding-top:8px; padding-left: 8px; padding-right:8px}
+.tab-section .nav-tabs>li.active>a{font-size:24px; background: #e52f24;font-weight:400;color:#ffffff;padding:8px 8px;border-bottom: 4px solid #ffba00; border-right:2px solid #ffba00;}
+.tab-section .tab-content .tab-pane h2{font-weight: bold;color: #e52f24;}
+.tab-section .tab-content p{ font-weight: 500;font-size: 18px;margin-top:10px;margin-bottom:10px; line-height: 1.3;color: #fff}
+.tab-section .tab-content .tab-pane{padding: 15px 20px; background: #000;}
+.why-doorserve{padding: 0px 0px 20px 0px;}
+.why-doorserve ul li{font-size: 18px;font-weight: 500; padding: 0px 0px 7px;}
+.why-doorserve p{   font-size: 18px;font-weight: 500;}
+
+/*about-us*/
+.about-us-section{background-image:url("../images/01.jpg");  padding:6% 0 0; background-size: cover;background-position: 50% 40%;color: #fff;}
+.about-us-section h1{font-weight: bold;color: #ffffff; font-size: 30px}
+.about-us-section h6{color:#ffffff;font-size: 14px; font-weight: 700;}
+.section-profile p{font-size:18px;font-weight: 500}
+.section-profile{padding:  44px 0px 0px 0px;}
+.section-profile .vision h3{font-weight: bold;}
+.line{width:40px;height:3px;background:#014b56;margin:8px 0px 20px; }
+.our-line{width:75px;height:3px;background:#014b56;margin:8px 0px 20px; margin: auto; }
+.section-our-team{padding: 15px 0px; }
+.section-our-team p{font-weight: 400;font-size: 14px}
+.section-our-team h3{font-weight: bold; }
+.section-our-team h6{font-weight: 400;font-size: 14px;}
+.section-our-team img{margin:30px auto 0px;}
+
+/*location*/
+.location-section{background-image:url("../images/location.jpg");padding: 6% 0 0; background-size: cover;background-position: 50% 40%;color: #fff;}
+.location-section h1{font-weight: bold;color: #ffffff; font-size:30px}
+.location-section h6{color:#ffffff;font-size: 14px}
+.location{margin: 30px 0px;}
+.location .map-box{border:1px solid #ccc; padding: 10px;}
+.location h2{margin-bottom: 0; padding-bottom: 18px; text-transform:uppercase;font-weight: bold; color: #272c4c;}
+
+
+/*service-section*/
+.service-section{background-image:url("../images/bg.jpg");  padding: 6% 0 0; background-size: cover;background-position: 50% 40%;color: #fff;}
+.service-section h1{color:#ffffff;}
+.service-section h6{color:#ffffff;font-size: 14px; font-weight: 700;}
+.consumer-electronics h3{font-weight:bold;}
+.consumer-electronics ul li{font-size: 18px; font-weight: 500;list-style-type: disc;}
+.consumer-electronics{padding: 20px 0px 20px 0px;}
+.customer-segment .our-line{margin: auto;}
+.customer-segment h3{font-weight: bold;}
+.customer-segment h4{font-weight: bold; text-align: center;}
+.customer-segment{padding: 30px 0px 50px 0px;}
+.customer-segment img{margin: auto;width:196px;}
+.consumer-electronics p{   font-size: 16px;font-weight: 500;}
+.consumer-electronics-privacy {counter-reset: my-sec-counter;}
+.consumer-electronics p{position: relative; line-height: 26px;}
+.consumer-electronics-privacy p::before{counter-increment: my-sec-counter;
+    content: "" counter(my-sec-counter) ". ";
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+	
+    top: 0px;
+}
+.service-slider .carousel-inner{max-height: 115px}
+
+
+
+/*careers-section*/
+.careers-section{background-image:url("../images/handshake.png"); padding: 6% 0 0; background-size: cover;background-position: 50% 40%;color: #fff;}
+.careers-section h1{color:#ffffff;}
+.careers-section h6{color:#ffffff;font-size: 14px;font-weight: 700;}
+.our-team{margin-bottom: 10px;}
+.Our-Team-Apply h3{font-weight: bold;}
+.seniorjob{font-size:16px;font-weight: 400;margin:10px 0px 10px 0px;}
+.seniorjob p{padding:0px; margin:0px}
+.seniorjob a{ color: #333;font-weight:600;font-size: 14px;}
+
+.Our-Team-Apply .experienced{margin:24px 0px;}
+.Our-Team-Apply i{font-weight:400}
+
+/*contact-us-section-start*/
+.contact-us-section{background-image:url("../images/banner7.jpg"); padding: 6% 0 0; background-size:cover;background-position: 50% 40%;color: #fff;}
+.contact-us-section h1{color:#ffffff;}
+.contact-us-section h6{color:#ffffff;font-size: 14px; font-weight:700;}
+.contact-form-section{padding:3% 0;}
+.contact-form-section h2{ margin: 0px 0px 16px 0px;}
+.contact-form-section p a{color: #337ab7;}
+
+/*bottom- common Section-end-css*/
+.quick-service{ background:#f7f7f7;padding:60px 0px; }
+.quick-service p{margin:0 0 17px;}
+.gs-btn{ background: #e52f24;border-color:#fff;color:#ffffff;padding: 10px 40px;font-weight:bold;}
+.gs-btn:hover{color:#fff; background: #000}
+.tab-section .gs-btn:hover{background:#ffba00 ;color: #000}
+.gs-btn:active {
+  box-shadow: 0 4px #ffba00;
+  transform: translateY(1px);
+	border:0px solid #ccc;
+}
+
+.service-slider h2{margin-bottom:0;padding-bottom:10px;text-transform:uppercase;font-weight: bold;color: #000000;}
+.service-slider{padding:3% 0;}
+.control .fa{color: #868686;font-size:24px;font-weight: 300;padding: 16px;text-decoration: none;}
+.item h4{color: #000000;font-weight: bold;font-size:16px;}
+.service-slider .carousel-inner .item img{width: 80px;}
+.footer{padding: 1% 0 1%;background:#000000;color:#fff;font-size:14px;}
+.footer ul li a {}
+.footer ul li{padding-bottom:6px;}
+.footer ul li a{color: #e52f24;text-decoration: none;}
+.footer ul li a:hover{color: #fff}
+
+
+.active-footer{color: #fff!important}
+
+.footer ul li a:visited  {
+  
+}
+
+
+
+.footer ul li a:active{color:#ffba00;}
+.footer .socials ul li{list-style-type:none; display:inline-block;padding: 0 5px;margin:0;}
+.footer .socials ul{padding-left: 0;}
+.footer ul{padding-left: 20px;}
+.footer .fa{color: #e52f24;}
+.footer h4{font-size:14px; font-weight: bold}
+.footer p{margin: 0 0 6px}
+.footer address{margin-bottom: 12px}
+.copyright-footer {padding: 10px 0 0;background: #fff;color:#000;}
+.copyright-footer p a{ color: #000; text-decoration: none;}
+.p-5{margin-top:35px}
+.footer ul li .fa:hover{font-size: 16px}
+.copyright-footer p{color: #000}
+
+/*catrgory-form*/
+.box{box-shadow: 0px 0px 10px 0px; margin-bottom: 40px;margin-top: 40px;border:9px solid #fff;padding: 0px 30px 30px 30px;}
+
+.box h3{color:#333333; margin-bottom: 15px;text-align: center; }
+.box label{color:#272c4c;}
+.box .our-line{margin: auto; text-align: center; margin-bottom: 25px;}
+
+/*thankyou*/
+ .section-thankyou{text-align: center; margin:30px;background:#fff; padding: 10px;}
+ .tnk-img{ width: 30%; margin:40px auto;}
+ .tnk-img img{max-width: 100%;}
+ .section-thankyou p{color: #989898; font-size: 15px;}
+ .section-thankyou .section-title{color: #989898; text-transform: inherit;font-family: 'SofiaProMedium'; font-size: 35px; margin-bottom: 30px;}
+ .braek-point{display: block;}
+ .btn-tnk,.btn-tnk:visited{ width: 170px; display: inline-block;font-size: 16px;margin:20px;color: #09ce7c;border: 1px solid #09ce7c; border-radius: 3px; padding: 10px; }
+ .social-footer a{line-height: 34px;color: #272c4c;padding: 0px 5px; }
+ .social-footer i{font-size: 18px;}
+.sec-02 h5{font-size:22px; color: #272c4c;font-weight: 700; }
+.social-footer i:hover{color:#ffba00 }
+
+.track-service{margin:20px 0px;}
+.tra {padding: 10px 30px 40px 30px; margin: 50px auto;box-shadow:0px 0px 10px 0px}
+.tra h3{padding-bottom: 20px}
+.track-contain .container{max-width:700px}
+.authentication-content label{color:#272c4c}
+
+/*shipment-track*/
+.wrapper{ background:#ccc;}
+.wrapper .container{max-width:800px;text-align: center}
+.wrapper .container h1{font-weight:bold; color: #666; margin:5px 0;}
+.wrapper .container h3{font-weight: bold; background: #014b56;padding: 20px 0px;color:#fff; margin:0px 0;}
+.status{background:#739ba1;width: 100%}
+.status ul{margin: 0; padding: 0;}
+.status ul li{width:32%;margin: 0; padding: 15px 0px;}
+.status ul li a{font-size:16px; }
+.status ul li{display: inline-block}
+.track-icon ul li{ width:19%; display:inline-block; background:#999}
+.main-nav  .dropdown-menu > li > a:hover {
+    background-color: #e52f24;
+    background-image: none;
+}
+.main-nav .navbar-default .navbar-nav>.open>a{background: #e52f24;color: #fff}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{background: #e52f24 !important; color: #fff !important}
+
+
+@media (max-width: 767px){
+	.tab-section .nav-tabs>li> a{padding: 9px 2px;font-size: 16px;}
+	.tab-section .nav-tabs>li.active>a{font-size:16px;padding: 9px 1px;}
+	.tab-section .tab-content p{font-size: 17px}
+	.section-our-team{padding:0px 0px;}
+	.xs-hide{display: none;}
+	.tab-section{padding-top: 10px; padding-bottom: 10px;}
+	.customer-segment{padding:5px 0px 20px 0px;}
+	.why-doorserve{padding: 2px 0px;}
+	.why-doorserve ul li{font-size: 16px}
+	.why-doorserve p{font-size: 16px}
+	.quick-service{ background:#f7f7f7;padding: 20px 0px;}
+	.copyright-footer p{float: none; display: block;}
+	.tab-section .tab-content .tab-pane h2{font-size: 26px;}
+	.navbar-nav .open .dropdown-menu{width:100%; /*border:1px solid rgba(0,0,0,.15);box-shadow:0 6px 12px rgba(0,0,0,.175);*/}
+    .navbar-right > ul >li a{align-content:center;}
+	.service-slider h2 {font-size:26px;}
+	.Our-Team-Apply .experienced{margin: 0;}
+	.Our-Team-Apply h3{margin-top:30px;}
+	.section-profile{padding: 15px 0px 0px 0px}
+	.section-profile p{font-size: 16px}
+	.section-thankyou{ margin: 10px;background: #fff; padding: 10px;}
+    .tnk-img{ width: 80%; margin:30px auto;}
+    .section-thankyou .section-title{font-size:30px; margin-bottom: 30px;}
+    .sec-02 h5{font-size:16px; color: #272c4c;font-weight: 700; }
+	.navbar-right li{font-size:21px;padding-top: 0px;margin-left:16px;}
+	.footer{padding:4% 0% 3%;}
+	.status ul li{width:100%}
+	.custum-carousel-caption, .custum-carousel-caption2, .custum-carousel-caption3{left:5%!important; width: 300px}
+	.slider-carousel h1{font-size:24px; font-weight: bold; line-height: 26px; color: #e52f24}
+    .slider-carousel p{color: #e52f24;font-size:14px;line-height: 26px;font-weight: 400}
+	.demo{position: relative}
+	.demo .fa-plus {position: absolute; right: 20px;}
+	.fa-plus:before{color: #ffba00}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{font-weight: bold; font-weight: 15px !important; color: #000; padding-left:34px }
+	.dropdown .caret{display: none}
+	.dropdown .fa-plus{display: initial}
+	.navbar-default .navbar-toggle{position: absolute;right: 0;top: -64px;}
+	.navbar{min-height: 0;}
+	.item h4{font-size: 15px}
+	.main-nav{padding: 0;}
+	.top-nav .navbar-nav{display: none}
+	.main-nav .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{ background:#e52f24;color: #fff }
+	.main-nav .navbar-default .navbar-toggle .icon-bar{ background: #000}
+	.main-nav .navbar-default .navbar-toggle{border-color: #000}
+	.main-nav .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{}
+	#jumboCarousel{height: 180px}
+	#jumboCarousel img{height: 180px !important}
+	.tab-section .tab-content .tab-pane{padding: 10px 20px}
+	.main-nav .navbar-default .navbar-toggle:hover{background:#fff }
+	.navbar-default .navbar-nav li a{font-size: 19px}
+	.service-section h1{font-size: 22px; font-weight: bold}
+	.dropdown-menu li a{pointer-events: relative;}
+	.dropdown-menu li a::after{position: absolute; content:url('../images/a-1.png'); left: 12px; background-size: 10px}
+	
+
+}
+	
+
+
+@media (max-width: 450px){
+	.tab-section .nav-tabs>li> a{font-size: 13px;}
+	.tab-section .nav-tabs>li.active>a{font-size:13px;padding: 9px 1px;}
+	.consumer-electronics h3{font-size:20px }
+	.contact-us-section h1{font-size: 24px;}
+	.about-us-section h1{font-size: 24px}
+	.location-section h1{font-size: 24px}
+	.careers-section h1{font-size: 24px}
+	.contact-form-section h2{font-size: 24px}
+	h2{font-size: 22px}
+	h3{font-size: 17px}
+
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.navbar-default .navbar-nav li a{font-size: 20px;}
+	.navbar-right li{position: absolute;top:52%; right: 7%;font-size: 20px;}
+	/*.quick-service-m-t{margin-top:20px;}*/
+	.quick-service p{font-size: 13px}
+	.ipad-row-res{display: flex;}
+}
+

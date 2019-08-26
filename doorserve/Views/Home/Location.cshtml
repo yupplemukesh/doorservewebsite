@@ -1,0 +1,13 @@
+﻿@model Doorserve.Core.Dtos.PageViewModel
+@{
+    ViewData["Title"] = "Locations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var QuickServe = Model.PageContants.Where(x => x.SectionName == "quick-service").FirstOrDefault();
+    var ServiceSlider = Model.PageBanners.Where(x => x.SectionName == "service-slider").ToList();
+    var viewData = new ViewDataDictionary(new Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider(), new Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary()) { { "BaseUrl", Model.BaseUrl } };
+}
+
+<partial name="_QuickServices" model="QuickServe" />
+<!--service-info-->
+<partial name="_ServiceSlider" model="ServiceSlider" view-data="viewData" />
+

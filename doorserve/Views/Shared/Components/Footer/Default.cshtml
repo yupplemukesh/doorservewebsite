@@ -1,0 +1,77 @@
+﻿@model Doorserve.Core.Dtos.HeaderFooterModel
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="ipad-row-res">
+                <div class="col-md-4 col-sm-6">
+                    <h4>DOORSERVE SERVICES</h4>
+                    <ul>
+                        @foreach (var item in Model.Categories)
+                        {
+                            <li>@item.CategoryName</li>
+                        }
+                        @*<li>Air Conditioner</li>
+                        <li>Washing Machine</li>
+                        <li>Refrigerator</li>
+                        <li>Microwave Oven</li>
+                        <li>Water Purification System</li>
+                        <li>Dishwasher</li>*@
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h4>FAQs</h4>
+                <ul>
+                    <li><a href="about.html">What is Doorserve</a></li>
+                    <li><a href="index.html" class="active-footer"> Why Choose Doorserve</a></li>
+                    <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">How do I register my call</a></li>
+                    <li><a href="locations.html">Where are we located at</a></li>
+                    <li><a href="careers.html">How to join with us</a></li>
+                    <li><a href="services.html">What are all the services we are doing</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+
+                <h4>@Model.Contact.Name</h4>
+                <address>
+                    <small>
+                        @Html.Raw(Model.Contact.Address)
+                    </small>
+                </address>
+                <p><i class="fa fa-phone"></i> &nbsp; <span>@Model.Contact.ContactNumber</span></p>
+                <p><i class="fa fa-envelope"></i> &nbsp; @Model.Contact.Email</p>
+                <div class="socials">
+                    @Html.Raw(Model.Contact.SocialLink)
+                    @*<ul>
+                        <li>	<p>Social Links</p></li>
+                        <li><a href="https://www.facebook.com/doorserve/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/doorserve"><i class="fa fa-twitter"></i></a></li>
+
+                    </ul>*@
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section copyright-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 col-sm-8 ">
+                <p> Developed by Yupple Technologies © 2019.</p>
+            </div>
+
+
+            <div class="col-md-2 col-md-offset-3 col-sm-4">
+                <p><a href="privacy-policy.html">Privacy Policy</a> </p>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Doorserve.Core.Dtos.BannerModel>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+    <div class="section service-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Doorserve Services</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <div class="pull-right control">
+                            <!-- Left and right controls -->
+                            <a class="fa fa fa-angle-left " href="#myCarousel" data-slide="prev"></a>
+                            <a class="fa fa fa-angle-right " href="#myCarousel" data-slide="next"> </a>
+                        </div>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+
+                            <div class="item active">
+                                <div class="row">
+                                    @foreach (var item in Model)
+                                    {
+                                        <div class="col-md-2 col-xs-6 col-sm-4  text-center">
+                                            <a href="@item.BannerLinkURL"> <img src="@ViewData["BaseUrl"].ToString()/tempFiles/banners/@item.Name/@item.BannerFileName" alt="@item.AltText"></a>
+                                            <h4>@item.HeaderTitle</h4>
+                                        </div>
+                                    }
+                                    @*<div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"> <img src="images/ac.png" alt="ac"></a>
+                                        <h4>Air Conditioner</h4>
+                                    </div>
+
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"><img src="images/fridge.png" alt="fridge"></a>
+                                        <h4>Refrigerator</h4>
+                                    </div>
+
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"> <img src="images/washing-machine.png" alt="washing-machine"></a>
+                                        <h4>Washing Machine</h4>
+                                    </div>
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"><img src="images/oven.png" alt="microwave oven"></a>
+                                        <h4>Microwave Owen</h4>
+                                    </div>
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"> <img src="images/appliances.png" alt="appliances"></a>
+                                        <h4>Home Appliances</h4>
+                                    </div>*@
+
+
+                                </div>
+                            </div>
+
+                            @*<div class="item">
+                                <div class="row">
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"> <img src="images/medical.png" alt="medical"></a>
+                                        <h4>Medical Devices</h4>
+                                    </div>
+
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"><img src="images/smallappliacnes.png" alt="medical"></a>
+                                        <h4>Small appliances</h4>
+                                    </div>
+
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"><img src="images/waterplant.png" alt="medical"></a>
+                                        <h4>Water purifier plant</h4>
+                                    </div>
+
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"> <img src="images/dishwasher.png" alt="medical"></a>
+                                        <h4>Dish washer</h4>
+                                    </div>
+                                    <div class="col-md-2  col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"> <img src="images/laptop.png" alt="mobile"></a>
+                                        <h4>Mobiles/Laptops</h4>
+                                    </div>
+                                    <div class="col-md-2 col-xs-6 col-sm-4 text-center">
+                                        <a href="category-form.html"><img src="images/solar.png" alt="Solar"></a>
+                                        <h4>Solar</h4>
+                                    </div>
+
+
+                                </div>
+                            </div>*@
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>

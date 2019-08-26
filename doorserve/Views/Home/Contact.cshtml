@@ -1,0 +1,32 @@
+﻿@model Doorserve.Core.Dtos.PageViewModel
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var QuickServe = Model.PageContants.Where(x => x.SectionName == "quick-service").FirstOrDefault();
+    var ServiceSlider = Model.PageBanners.Where(x => x.SectionName == "service-slider").ToList();
+    var viewData = new ViewDataDictionary(new Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider(), new Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary()) { { "BaseUrl", Model.BaseUrl } };
+}
+
+<div class="contact-form-section">
+    <div class="container">
+        <div class="row">
+
+            <partial name="_ContactQueryForm" model="new Doorserve.Core.Dtos.ContactDetails()" />
+
+            <div class="col-md-4">
+
+                <h2>Our Address</h2>
+                <p><b>@Model.Contact.Name</b></p>
+                @Html.Raw(Model.Contact.Address)
+                <p>Phone: <a href="tel:@Model.Contact.ContactNumber">@Model.Contact.ContactNumber</a></p>
+                <p>Mail : <a href="mailto:@Model.Contact.Email">@Model.Contact.Email</a>&#65279;</p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<partial name="_QuickServices" model="QuickServe" />
+<!--service-info-->
+<partial name="_ServiceSlider" model="ServiceSlider" view-data="viewData" />

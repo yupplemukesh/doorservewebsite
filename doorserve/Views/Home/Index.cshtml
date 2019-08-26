@@ -1,0 +1,225 @@
+﻿@model  Doorserve.Core.Dtos.PageViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var carousel = Model.PageBanners.Where(x => x.SectionName == "slider-carousel").ToList();
+    var cs = 1;
+    var TabSection = Model.PageContants.Where(x => x.SectionName == "tab-section").FirstOrDefault();
+    var WhydoorServe = Model.PageContants.Where(x => x.SectionName == "why-doorserve").FirstOrDefault();
+    var QuickServe = Model.PageContants.Where(x => x.SectionName == "quick-service").FirstOrDefault();
+    var ServiceSlider = Model.PageBanners.Where(x => x.SectionName == "service-slider").ToList();
+    var viewData = new ViewDataDictionary(new Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider(), new Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary()) { { "BaseUrl", Model.BaseUrl }};
+}
+    <div class="slider-carousel">
+        <div class="container-fluid">
+            <!-- start JumboCarousel -->
+            <div id="jumboCarousel" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators hidden-xs">
+                    <li data-target="#jumboCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#jumboCarousel" data-slide-to="1"></li>
+                    <li data-target="#jumboCarousel" data-slide-to="2"></li>
+                    <li data-target="#jumboCarousel" data-slide-to="3"></li>
+                </ol><!-- end carousel-indicators -->
+                <!-- Wrapper for Slides -->
+                <div class="container-fluid">
+                    <div class="carousel-inner" role="listbox">
+                        @foreach (var item in carousel)
+                        {
+                            if (cs == 1)
+                            {
+                                @:<div class="item active" id="slide @cs">
+                                }
+                                else
+                                {
+                                    @:<div class="item" id="slide @cs">
+                                    }
+                                    <a href="#"><img src="@Model.BaseUrl/tempFiles/banners/@item.Name/@item.BannerFileName" alt="Slide @cs"></a>
+                                    @Html.Raw(item.Description)
+                                @:</div>
+                                cs++;
+                            }
+                        <!-- end slide1 -->
+
+                    </div><!-- end carousel-inner -->
+
+                </div><!-- end jumboCarousel -->
+
+            </div>
+        </div>
+
+    </div>
+
+    <!--slider- section -end-->
+    <!--tab-section-start-->
+    <div class="section tab-section">
+        @if (TabSection != null)
+        {
+            @Html.Raw(TabSection.Description)
+        }
+        @*<div class="container">
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="pill" href="#home">End customers</a></li>
+                <li><a data-toggle="pill" href="#menu1">Support for Brands</a></li>
+                <li><a data-toggle="pill" href="#menu2">Service Partners</a></li>
+                <li><a data-toggle="pill" href="#menu3">Freelancer Contact</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active first-btn">
+                    <p>
+                        1. The convenience of your appliances can transform into a big headache just as they stop working
+                        efficiently. We enter as your technical saviours to pull you out of the grips of the stress. We're looking out
+                        for any home & health appliances – Refrigerator, TV, Washing Machine, Dish Washer, Mobiles, Solar
+                        Panels & more- that could be fixed. Our extended warrant products are great supporters of your
+                        appliances' health & will save your leaky finances on endless repairs!
+                    </p>
+                    <p> 2. What does it takes? A call from you!</p>
+                    <p> 3. You can also fill up our repair request form & we'll get back to you ASAP!</p>
+                    <div class="row">
+                        <dibv class="col-md-12">
+                            <h2 class="text-center">WANT TO POST AN ENQUIRY?</h2>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-default gs-btn" data-toggle="modal" data-target=".bs-example-modal-sm">Click Here</a>
+                            </div>
+                        </dibv>
+
+                    </div>
+
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <p>
+                        1. Filling the voids of the appliance market; we understand you might want someone to install your recently
+                        bought device, fix a certain technical mishap or simply get you a branded repair or replacement service.
+                        That someone has to be us for you!
+                    </p>
+
+                    <p>
+                        2. We're supported by & partners with brands. Our technicians are trained & groomed to attend your
+                        urgency. Our highlight feature is- “Repair & Installation services with perfection & swiftly!”
+                    </p>
+                    <p> 3. It's time that you ditch every worry & make us a call.</p>
+                    <div class="row">
+                        <dibv class="col-md-12">
+                            <h2 class="text-center">HAVE ANY BRAND SERVICE REQUEST?</h2>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-default gs-btn" data-toggle="modal" data-target=".brands">Click Here</a>
+                            </div>
+                        </dibv>
+
+                    </div>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <p>
+                        1. Spread across 25 states, we aim to become the pool of local service providers. If you have the calibre, we
+                        have an opportunity for you. Let's infuse the market with our passion, skills and techniques to bring any
+                        appliance back to life. It's the right to associate with us if you're experienced in providing installation/
+                        demo services or repair & replacement services in your local area.
+                    </p>
+                    <p>
+                        2. It's a dream to create a workforce of eligible technicians so that you get unstoppable service request
+                        around the year. Let your destiny take you to become a prime technical support provider in your area via
+                        Doorserve.
+                    </p>
+                    <div class="row">
+                        <dibv class="col-md-12">
+                            <h2 class="text-center">ARE YOU LOOKING TO JOIN US?</h2>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-default gs-btn" data-toggle="modal" data-target=".partner">Click Here</a>
+                            </div>
+                        </dibv>
+
+                    </div>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                    <p>
+                        1. Tired of not getting work calls? This is the great place that streamlines your career in a fruitful manner.
+                        How? Collaborate with us if you have a technically sound mind and work-it-out-anyhow approach to
+                        solve problems. With us, you will get a non-stop flow of work that will meet your expectations.
+                    </p>
+
+                    <p>
+                        2. Being the brand in repair & installation services, people have invested their faith in us. This is why, our
+                        workforce is about being respectful, determined and hard working to keep up with the reputation.
+                    </p>
+
+                    <div class="row">
+                        <dibv class="col-md-12">
+                            <h2 class="text-center">ARE YOU A FREELANCER WILLING TO JOIN US?</h2>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-default gs-btn" data-toggle="modal" data-target=".freelancer">Click Here</a>
+                            </div>
+                        </dibv>
+
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+    </div>
+
+    <!--tab-section-End-->
+    <!--Why Doorserve-start-->
+    <div class="section why-doorserve">
+        @if (WhydoorServe != null)
+        {
+            @Html.Raw(WhydoorServe.Description)
+        }
+        @*<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>WHY CHOOSE DOORSERVE</h2>
+                    <p>
+                        There are myriad of service providers but we're the leaders among them. Our aim is to create a
+                        community of satisfied customers along with contented repairmen around India. We deserve your support
+                        because:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Commitment from founders:</strong> There's never a problem which can't be solved. Our founders lead
+                            a team that is self motivated & believe to outperform every time.
+                        </li>
+
+                        <li>
+                            <strong>Expanse of centres:</strong> Spread across 25 states of India, Doorserve has 270+ locations where our
+                            services are actively running.
+                        </li>
+
+                        <li>
+                            <strong>Proficient Training Centres:</strong> Our associate servicemen go through intensive training at Training
+                            & Development Center in Bangalore to attain technical nourishment & interpersonal skills before
+                            they're ready to go in action.
+                        </li>
+
+                        <li>
+                            <strong>Regional Leaders:</strong> We believe in staying managed at every level which is why our regional
+                            leaders take pride in maintaining well-connected local repairmen community.
+                        </li>
+
+                        <li>
+                            <strong>Customer Care Centre: </strong> You have a query or complaint? We're more than willing to hear it all
+                            with a promise to upgrade your experience.
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>*@
+
+
+    </div>
+    <!--Why Doorserve-start-End-->
+    <!--quick-service-section-->
+    <partial name="_QuickServices" model="QuickServe" />
+    <!--service-info-->
+    <partial name="_ServiceSlider" model="ServiceSlider" view-data="viewData" />
+
+
+
