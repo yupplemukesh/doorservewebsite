@@ -36,6 +36,8 @@ namespace DoorServe
             });
 
 
+
+           
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             GlobalProperties.db = con;
             services.AddSingleton<ICommonService, Services>();
