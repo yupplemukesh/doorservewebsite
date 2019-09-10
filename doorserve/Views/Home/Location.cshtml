@@ -2,10 +2,27 @@
 @{
     ViewData["Title"] = "Locations";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var SectionLocation = Model.PageContants.Where(x => x.SectionName == "location-section").FirstOrDefault();
+    var Location = Model.PageContants.Where(x => x.SectionName == "location").FirstOrDefault();
     var QuickServe = Model.PageContants.Where(x => x.SectionName == "quick-service").FirstOrDefault();
     var ServiceSlider = Model.PageBanners.Where(x => x.SectionName == "service-slider").ToList();
     var viewData = new ViewDataDictionary(new Microsoft.AspNetCore.Mvc.ModelBinding.EmptyModelMetadataProvider(), new Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary()) { { "BaseUrl", Model.BaseUrl } };
 }
+
+<div class="section location-section">
+    @if (SectionLocation != null)
+    {
+        @Html.Raw(SectionLocation.Description)
+    }
+</div>
+<div class="location">
+    @if (Location != null)
+    {
+        @Html.Raw(Location.Description)
+    }
+</div>
+
+
 
 <partial name="_QuickServices" model="QuickServe" />
 <!--service-info-->
